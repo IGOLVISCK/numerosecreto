@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo Numero secreto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__box">
+            <h1 class="header__texto"> Jogo do numero secreto!</h1>
+        </div>
+    </header>
+
+    <main class="navegacao">
+        <section class="sec__container">
+            <div class="conteudo-esquerda">
+                <div class="input-text">
+                    <h2 class="texto-chute">CHUTE UM NÚMERO DE 1 à 100</h2>
+                    <input id="input" class="input" type="number" placeholder="Digite">
+                </div>
+                <div class="botoes">
+                    <button class=" botoes__block" onclick="verificarChute()" id="botao-chute"> Chutar</button>
+                    <button class="botao-restart  botoes__block" id="restart" onclick="restartGame()" disabled> Reiniciar </button>
+                </div>
+            </div>
+            <div class="conteudo-direita">
+                <h4 class="aviso-tentativa">VOCÊ TEM <strong class="destaque-texto">5 TENTATIVAS </strong> ACERTAR O NÚMERO SECRETO!</h4>
+                <h3 class="resultado">...</h3>
+            </div>
+        </section>
+
+    </main>
+
+
+    <script src="app.js" defer></script>
+</body>
+</html>
