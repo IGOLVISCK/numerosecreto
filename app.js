@@ -17,7 +17,6 @@ function verificarChute() {
     if (chute == numeroSecreto){
         let palavraTentativa = tentativa > 1? 'Tentativas' : 'Tentativa';
         exibirTextoNaTela('.resultado', `Parabéns, Você ACERTOU o número secreto, com ${tentativa} ${palavraTentativa}`)
-        restartGame();
     }else {
         if (chute < numeroSecreto){
             exibirTextoNaTela('.resultado', `O número secreto é maior que ${chute}`)
