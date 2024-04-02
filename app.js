@@ -46,5 +46,6 @@ function restartGame(){
     tentativa = 1;
     console.log(numeroSecreto)
     limparCampo();
+    exibirTextoNaTela('.resultado', '...')
 }
 
