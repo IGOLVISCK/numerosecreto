@@ -52,6 +52,7 @@ body {
 @media (max-width: 624px) {
     .header {
         height: 10rem;
+        width: 100%;
     }
     .texto-chute {
         font-size: 4.5rem;
