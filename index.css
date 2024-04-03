@@ -101,14 +101,16 @@
     .descricao {
         margin-top: 30%;
     }
-    .texto-dificuldade {
-        font-size: 3rem;
-        min-width: 580px;
 }
 
 @media (max-width: 450px) {
     .descricao__texto {
         min-width: 450px;
     }
+}
+@media (max-width: 580px) {
+    .texto-dificuldade {
+        font-size: 3rem;
+        min-width: 580px;
 }
 
