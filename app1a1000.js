@@ -29,7 +29,7 @@ function verificarChuteDo1Ao1000() {
         }
         tentativaDo1Ao1000++
         limparCampoDo1Ao1000();
-        if (tentativaDo1Ao1000 == 12 + 1) {
+        if (tentativaDo1Ao1000 == 9 + 1) {
             exibirTextoNaTelaDo1Ao1000('.resultado-do-1ao1000', `Tente novamente, você excedeu o numero de tentativas. O numero secreto era ${numeroSecretoDo1Ao1000}`)
             document.getElementById('restart-do-1ao1000').removeAttribute('disabled');
             document.getElementById('botao-chute-do-1ao1000').setAttribute('disabled', 'disabled')
