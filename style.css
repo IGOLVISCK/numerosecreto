@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Merienda:wght@300..900&family=Poller+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Poller+One&display=swap');
 /*--STYLES--*/
-@import url(styles/1a100.css);
-@import url(styles/index.css);
-@import url(/styles/1a10.css);
-@import url(/styles/1a1000.css);
+@import url(1a100.css);
+@import url(index.css);
+@import url(1a10.css);
+@import url(1a1000.css);
 
 :root {
     --preto--: black;
