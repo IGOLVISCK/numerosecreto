@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Número secreto 1 a 10</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__box">
+            <h1 class="header__texto"> Jogo do numero secreto!</h1>
+        </div>
+    </header>
+
+    <main class="navegacao">
+        <section class="sec__container">
+            <div class="conteudo-esquerda">
+                <div class="input-text">
+                    <h2 class="texto-chute">CHUTE UM NÚMERO DE 1 à 1000</h2>
+                    <input id="input-do-1ao1000" class="input-do-1ao1000" type="number" placeholder="Digite">
+                </div>
+                <div class="botoes">
+                    <button class="botoes__block-do-1ao1000" onclick="verificarChuteDo1Ao1000()" id="botao-chute-do-1ao1000"> Chutar</button>
+                    <button class="botao-restart-do-1ao1000  botoes__block-do-1ao1000" id="restart-do-1ao1000" onclick="restartGameDo1Ao1000()" disabled> Reiniciar </button>
+                </div>
+            </div>
+            <div class="conteudo-direita">
+                <h4 class="aviso-tentativa">VOCÊ TEM <strong class="destaque-texto">12 TENTATIVAS </strong> PARA ACERTAR O NÚMERO SECRETO!</h4>
+                <h3 class="resultado-do-1ao1000">...</h3>
+            </div>
+        </section>
+
+    </main>
+
+
+    <script src="/apps/app1a1000.js" defer></script>
+</body>
+</html>
