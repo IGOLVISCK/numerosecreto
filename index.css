@@ -108,9 +108,3 @@
         min-width: 450px;
     }
 }
-@media (max-width: 580px) {
-    .texto-dificuldade {
-        font-size: 3rem;
-        min-width: 580px;
-}
-
