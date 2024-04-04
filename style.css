@@ -1,0 +1,68 @@
+/*--FONTES--*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Merienda:wght@300..900&family=Poller+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&family=Poller+One&display=swap');
+/*--STYLES--*/
+@import url(styles/1a100.css);
+@import url(styles/index.css);
+@import url(/styles/1a10.css);
+@import url(/styles/1a1000.css);
+
+:root {
+    --preto--: black;
+    --branco--: white;
+    --azul-header--: #7ABBE0;
+    --font-titulo--: 'Rubik Scribble', 'system-ui';
+    --azul-body--: #55749E;
+    --laranja-texto: #E68B35;
+    --azul-botao: #1D459E;
+    --vermelho--: red;
+    --font-aviso: "Poller One", serif;
+    --font-resultado: "Merienda", 'cursive';
+    --verde--: rgb(5, 54, 2);
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--azul-body--);
+}
+
+.header {
+    margin-top: 0%;
+    background-color: var(--azul-header--);
+    height: 5rem;
+    
+}
+
+.header__box {
+    display: flex;
+    justify-content: center;
+}
+
+.header__texto {
+    text-align: center;
+    color: var(--preto--);
+    margin-top: 1rem;
+    font-size: 3rem;
+    font-family: var(--font-titulo--);
+    font-weight: 400;
+}
+
+@media (max-width: 624px) {
+    .header {
+        height: 10rem;
+    }
+    .texto-chute {
+        font-size: 4.5rem;
+    }
+    .sec__container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 560px) {
+    .header {
+        min-width: 560px;
+    }
+}
